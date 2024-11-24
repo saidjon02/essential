@@ -1,0 +1,2 @@
+https://essentialthings.netlify.app/
+https://essentialthings.netlify.app/admin

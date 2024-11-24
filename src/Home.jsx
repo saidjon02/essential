@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home container">
-      {/* <Helmet> */}
-      <title>The best apps and things for you</title>
-      <meta
-        name="description"
-        content="This site was created by Fazilov Saidjon and this site has many features."
-      />
-      <link rel="canonical" href="/" />
-      {/* </Helmet> */}
+      <Helmet>
+        <title>Essential Things</title>
+        <meta
+          name="description"
+          content="This site was created by Fazilov Saidjon, and it contains more essential items, applications, and numerous additional features."
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <h1>The best apps and things for you</h1>
       <div className="home-row">
         <Link
