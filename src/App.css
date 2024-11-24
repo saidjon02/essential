@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.home {
+  margin: 70px 100px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: monospace;
+  font-size: calc(24px + (50 - 24) * (100vw - 320px) / (4000 - 320));
+}
+.home-row {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+}
+.home-row {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+}
+
+.home-box {
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: 0 0 0 orange;
+}
+.home-card-title {
+  color: black;
+}
+.home-card-text {
+  color: #292929dc;
+  font-size: 17px;
+  margin-top: 6px;
+}
+.home-box i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: orange;
+}
+.home-box:hover {
+  border-radius: 3px;
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0 orange;
+}
+.home-box {
+  position: relative;
+}
+/* h1 {
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: monospace;
+    font-size: 34px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: monospace;
+    font-size: 27px;
+  } */
+@media only screen and (max-width: 1400px) {
+  .home {
+    margin: auto;
+    margin: 50px 50px 50px 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .home {
+    margin: 50px;
+  }
+  .home-row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .home-card-title {
+    font-size: 22px;
+  }
+  .home-card-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    margin: 20px;
+  }
+  .home-row {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home {
+    margin: 10px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .home-box {
+    padding: 15px;
+  }
+  .home-card-title {
+    font-size: 20px;
+  }
+  .home-card-text {
+    font-size: 16px;
+  }
+}
