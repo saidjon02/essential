@@ -13,6 +13,7 @@ function App() {
           <Route exact path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>
+      HI guys 
     </div>
   );
 }
