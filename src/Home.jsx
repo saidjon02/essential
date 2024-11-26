@@ -1,11 +1,18 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-// import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home container">
+      <Helmet>
+        <title>Essential Things</title>
+        <meta
+          name="description"
+          content="This site was created by Fazilov Saidjon, and it contains more essential items, applications, and numerous additional features."
+        />
+        <link rel="canonical" href="https://necessarythings.netlify.app/" />
+      </Helmet>
       <h1>The best apps and things for you</h1>
       <div className="home-row">
         <Link
@@ -19,7 +26,7 @@ function Home() {
             <p className="home-card-text">
               It is the best calculator in the world and it has many functions.
             </p>
-            <i class="bx bx-calculator"></i>
+            <i className="bx bx-calculator"></i>
           </div>
         </Link>
         <Link
@@ -34,7 +41,7 @@ function Home() {
               This weather app is the perfect helper to get you ready for every
               day.
             </p>
-            <i class="bx bx-sun"></i>
+            <i className="bx bx-sun"></i>
           </div>
         </Link>
         <Link
@@ -49,7 +56,7 @@ function Home() {
               This dollar currency converter is accurate and fast for users
               provides exchange rates.
             </p>
-            <i class="bx bx-dollar-circle"></i>
+            <i className="bx bx-dollar-circle"></i>
           </div>
         </Link>
         <Link
@@ -64,7 +71,7 @@ function Home() {
               This blog platform is a convenient and inspiring space for
               creators and readers alike.
             </p>
-            <i class="bx bxl-drupal"></i>
+            <i className="bx bxl-drupal"></i>
           </div>
         </Link>
         <Link
@@ -78,7 +85,7 @@ function Home() {
             <p className="home-card-text">
               This online market has all the products you need.
             </p>
-            <i class="bx bx-cart"></i>
+            <i className="bx bx-cart"></i>
           </div>
         </Link>
         <Link target="_blank" to={"https://translate.google.com/"}>
@@ -88,7 +95,7 @@ function Home() {
               Helps to translation of words, you can learn pronunciation and
               usage with examples.
             </p>
-            <i class="bx bx-transfer"></i>
+            <i className="bx bx-transfer"></i>
           </div>
         </Link>
         <Link target="_blank" to={"https://food.ru/"}>
@@ -98,7 +105,7 @@ function Home() {
               This application is for searching and saving recipes of various
               dishes allows.
             </p>
-            <i class="bx bx-bowl-hot"></i>
+            <i className="bx bx-bowl-hot"></i>
           </div>
         </Link>
         <Link
@@ -112,7 +119,7 @@ function Home() {
             <p className="home-card-text">
               The best app for learning and practicing different languages.
             </p>
-            <i class="bx bx-blanket"></i>
+            <i className="bx bx-blanket"></i>
           </div>
         </Link>
         <Link
@@ -127,7 +134,7 @@ function Home() {
               Build your brand. Conquer the world. Zero code or design skills
               required.
             </p>
-            <i class="bx bx-code-alt"></i>
+            <i className="bx bx-code-alt"></i>
           </div>
         </Link>
 
@@ -142,7 +149,7 @@ function Home() {
             <p className="home-card-text">
               Create an exercise schedule for those who want to exercise.
             </p>
-            <i class="bx bx-cricket-ball"></i>
+            <i className="bx bx-cricket-ball"></i>
           </div>
         </Link>
         <Link target="_blank" to={""}>
@@ -152,7 +159,7 @@ function Home() {
               Trip planning and all the necessary information, expenses, hotels,
               places to see...
             </p>
-            <i class="bx bx-leaf"></i>
+            <i className="bx bx-leaf"></i>
           </div>
         </Link>
         <Link
@@ -166,7 +173,7 @@ function Home() {
             <p className="home-card-text">
               Very useful for learning how to care for house plants.
             </p>
-            <i class="bx bxs-florist"></i>
+            <i className="bx bxs-florist"></i>
           </div>
         </Link>
         <Link target="_blank" to={"https://booktrack.app/"}>
@@ -176,7 +183,7 @@ function Home() {
               To record the books read and the conclusions drawn from them will
               help.
             </p>
-            <i class="bx bx-book-heart"></i>
+            <i className="bx bx-book-heart"></i>
           </div>
         </Link>
 
@@ -186,7 +193,7 @@ function Home() {
             <p className="home-card-text">
               An ideal program for creativity and fun games.
             </p>
-            <i class="bx bxl-wordpress"></i>
+            <i className="bx bxl-wordpress"></i>
           </div>
         </Link>
         <Link target="_blank" to={"https://poki.com"}>
@@ -196,7 +203,7 @@ function Home() {
               Website for playing free online games on your mobile, tablet or
               computer
             </p>
-            <i class="bx bx-dice-3"></i>
+            <i className="bx bx-dice-3"></i>
           </div>
         </Link>
       </div>

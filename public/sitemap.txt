@@ -1,2 +1,2 @@
-https://essentialthings.netlify.app/
-https://essentialthings.netlify.app/admin
+https://necessarythings.netlify.app/
+https://necessarythings.netlify.app/admin
