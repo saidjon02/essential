@@ -11,10 +11,29 @@ function Home() {
           name="description"
           content="This site was created by Fazilov Saidjon, and it contains more essential items, applications, and numerous additional features."
         />
-        <link rel="canonical" href="https://necessarythings.netlify.app/" />
+        <link rel="canonical" href="https://smartessentials.netlify.app/" />
       </Helmet>
       <h1>The best apps and things for you</h1>
       <div className="home-row">
+        <Link target="_blank" to={"https://randomwordgenerator.com/"}>
+          <div className="home-box">
+            <h2 className="home-card-title">Random Word Generator</h2>
+            <p className="home-card-text">
+              An ideal program for creativity and fun games.
+            </p>
+            <i className="bx bxl-wordpress"></i>
+          </div>
+        </Link>
+        <Link target="_blank" to={"https://poki.com"}>
+          <div className="home-box">
+            <h2 className="home-card-title">Online Games</h2>
+            <p className="home-card-text">
+              Website for playing free online games on your mobile, tablet or
+              computer
+            </p>
+            <i className="bx bx-dice-3"></i>
+          </div>
+        </Link>{" "}
         <Link
           target="_blank"
           to={
@@ -137,7 +156,6 @@ function Home() {
             <i className="bx bx-code-alt"></i>
           </div>
         </Link>
-
         <Link
           target="_blank"
           to={
@@ -184,26 +202,6 @@ function Home() {
               help.
             </p>
             <i className="bx bx-book-heart"></i>
-          </div>
-        </Link>
-
-        <Link target="_blank" to={"https://randomwordgenerator.com/"}>
-          <div className="home-box">
-            <h2 className="home-card-title">Random Word Generator</h2>
-            <p className="home-card-text">
-              An ideal program for creativity and fun games.
-            </p>
-            <i className="bx bxl-wordpress"></i>
-          </div>
-        </Link>
-        <Link target="_blank" to={"https://poki.com"}>
-          <div className="home-box">
-            <h2 className="home-card-title">Online Games</h2>
-            <p className="home-card-text">
-              Website for playing free online games on your mobile, tablet or
-              computer
-            </p>
-            <i className="bx bx-dice-3"></i>
           </div>
         </Link>
       </div>
