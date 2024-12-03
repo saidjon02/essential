@@ -170,7 +170,7 @@ function Home() {
             <i className="bx bx-cricket-ball"></i>
           </div>
         </Link>
-        <Link target="_blank" to={""}>
+        <Link target="_blank" to={"https://www.google.com/travel/"}>
           <div className="home-box">
             <h2 className="home-card-title">Travel Planner</h2>
             <p className="home-card-text">
